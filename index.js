@@ -1,9 +1,8 @@
 import '@logseq/libs';
 
-function capitalizeBlock(){
-}
+
 const main = async () => {
-  console.log('plugin loaded');
+  // console.log('plugin loaded');
   logseq.Editor.registerBlockContextMenuItem('capitalize blocks', async (e) => {
     const block = await logseq.Editor.getBlock(e.uuid)
     logseq.Editor.updateBlock(block.uuid, block.content.toUpperCase())
