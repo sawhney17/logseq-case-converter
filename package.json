@@ -3,7 +3,7 @@
   "version": "1.0",
   "description": "Starter Plugin",
   "main": "dist/index.html",
-  "targets": { 
+  "targets": {
     "main": false
   },
   "scripts": {
@@ -14,6 +14,7 @@
   "author": "Aryan Sawhney",
   "license": "MIT",
   "dependencies": {
+    "@gouch/to-title-case": "^2.2.1",
     "@logseq/libs": "0.0.1-alpha.34"
   },
   "logseq": {
