@@ -1,6 +1,6 @@
 {
   "name": "logseq-case-converter-plugin",
-  "version": "1.0",
+  "version": "1.1.0",
   "description": "Starter Plugin",
   "main": "dist/index.html",
   "targets": {
