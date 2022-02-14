@@ -8,12 +8,10 @@ const main = async () => {
     const block = await logseq.Editor.getBlock(e.uuid)
     logseq.Editor.updateBlock(block.uuid, block.content.toUpperCase())
   })
-  logseq.Editor.registerBlockContextMenuItem('capitalize blocks', async (e) => {
+  logseq.Editor.registerBlockContextMenuItem('make block lowercase', async (e) => {
     const block = await logseq.Editor.getBlock(e.uuid)
     logseq.Editor.updateBlock(block.uuid, block.content.toLowerCase())
   }
-  
-    
   )}
 
 logseq.ready(main).catch(console.error);
